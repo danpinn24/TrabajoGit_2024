@@ -9,6 +9,7 @@ function generarIp(){
     // IP ---> 10.255.11.45
     let ip = ''
     for ( let cont=0; cont<4;  cont++){
+        GENERO CONFLICTO 
         let num = Math.floor((Math.random()*256))
         ip+= num + "."
     }
