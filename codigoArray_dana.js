@@ -7,7 +7,7 @@ for (let i = 0; i < array.length; i++) {
 console.log (array)
 
 
-let numero = [45,8,5,6,9,98]
+let numero = [45,8,5,6,9,98,5,7,99]
 
 for (let i = 0; i < numero.length; i++) {
     numero[i] =Math.floor(numero[i]/2)
