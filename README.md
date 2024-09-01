@@ -8,7 +8,7 @@ function generarIp(){
     //los valores estan estre 0 y 255
     // IP ---> 10.255.11.45
     let ip = ''
-    for ( let cont=0; cont<4;  cont++){
+    for ( let cont=0; cont<4;  cont++){  mis cambios dana 
         let num = Math.floor((Math.random()*256))
         ip+= num + "."
     }
