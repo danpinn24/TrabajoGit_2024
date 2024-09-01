@@ -14,4 +14,4 @@ function generarIp(){
     }
     return ip
 }
-console.log (generarIp())
+console.log ("La Ip es la siguiente" + generarIp())
