@@ -10,7 +10,7 @@ function generarIp(){
     let ip = ''
     for ( let cont=0; cont<4;  cont++){  mis cambios dana 
         let num = Math.floor((Math.random()*256))
-        ip+= num + "."
+        ip+= num + "." //ip+=num+[cont]
     }
     return ip
 }
