@@ -3,4 +3,6 @@ function PerimetroDeRectangulo(base, altura) {
     console.log (perimetro);
 }
 PerimetroDeRectangulo(4,6);
+
 console.log("este es el perimetro");
+
